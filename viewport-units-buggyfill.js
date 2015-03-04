@@ -323,7 +323,7 @@
   function replaceValues(match, number, unit) {
     var _base = dimensions[unit];
     var _number = parseFloat(number) / 100;
-    return (_number * _base) + 'px';
+    return (_number * _base) + 'px !important';
   }
 
   function getViewport() {
